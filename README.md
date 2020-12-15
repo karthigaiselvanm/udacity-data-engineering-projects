@@ -1,1 +1,1 @@
-![]images/Social-1-FB-IR6.jpg
+![images/Social-1-FB-IR6.jpg]
