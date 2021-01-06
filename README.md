@@ -35,3 +35,16 @@ For our use case we want below answers:
  - Load them back into another S3 bucket.
  
  Link : [Data_Lake with Spark & AWS S3](https://github.com/karthigaiselvanm/udacity-data-engineering-projects/tree/main/Datalake%20with%20Spark%20%26%20AWS%20S3)
+ 
+## Project 4: Data Lake with Spark 
+To complete the project, we need to create our own custom operators to perform tasks such as staging the data, filling the data warehouse, and running checks on the data as the final step.
+
+We need to update the following four template operators provided with the steps required.
+- stage_redshift.py - Steps for loading data from S3 bucket to Amazon Redshift
+- load_fact.py - Steps for loading the fact table songplays_fact from the staging table stage_songs
+- load_dimension.py - Steps for loading four dimension tables such as dim_users, dim_time, dim_songs and dim_artists
+- data_quality.py - Steps for checking the Data Quality of the loaded tables
+
+You'll be provided with a helpers class that contains all the SQL transformations. Thus, you won't need to write the ETL yourselves, but you'll need to execute it with your custom operators.
+
+Link : [Data_Pipelines with Apache Airflow](https://github.com/karthigaiselvanm/udacity-data-engineering-projects/tree/main/Data%20Pipelines%20with%20Apache%20Airflow)
