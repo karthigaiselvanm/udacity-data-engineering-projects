@@ -26,7 +26,7 @@ For our use case we want below answers:
   
 Link : [Data_Warehouse with Amazon Redshift](https://github.com/karthigaiselvanm/udacity-data-engineering-projects/tree/main/Datawarehouse%20with%20AWS%20Redshift)
 
-## Project 5: Data Lake with Spark
+## Project 4: Data Lake with Spark
 In this project, we'll apply what you've learned on Spark and data lakes to build an ETL pipeline for a data lake hosted on S3. To complete the project, you will need to load data from S3, process the data into analytics tables using Spark, and load them back into S3. You'll deploy this Spark process on a cluster using AWS.
 For our use case we want below answers: 
 
@@ -36,7 +36,7 @@ For our use case we want below answers:
  
  Link : [Data_Lake with Spark & AWS S3](https://github.com/karthigaiselvanm/udacity-data-engineering-projects/tree/main/Datalake%20with%20Spark%20%26%20AWS%20S3)
  
-## Project 4: Data Pipelines with Apache Airflow
+## Project 5: Data Pipelines with Apache Airflow
 To complete the project, we need to create our own custom operators to perform tasks such as staging the data, filling the data warehouse, and running checks on the data as the final step.
 
 We need to update the following four template operators provided with the steps required.
